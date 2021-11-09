@@ -1,0 +1,30 @@
+@import './variables';
+@import './mixins';
+@import './navegacion';
+@import './main';
+@import './footer';
+@import './mediaqueries';
+
+body {
+    font-family: $primaryFont;
+    margin: 0;
+    line-height: $defaultLine;
+}
+
+.div-main {
+    background-color: $secondaryColor;
+    width: 100%;
+    padding: 50px;
+}
+/*
+
+.div-main-content {
+    background-color: $secondaryColor;
+}
+
+footer {
+    background-color: $terciaryColor;
+    color: $textcolor;
+    height: 100px;
+}
+*/

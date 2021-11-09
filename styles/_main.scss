@@ -1,0 +1,28 @@
+h2 {
+    color: $colorcontraste;
+}
+
+.div-main-content {
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.div-bloque1 {
+    @include flexCenter(row);
+
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-h1 {
+    padding: 20px;
+}
+
+.div-trabajos {
+    @include flexCenter(column);
+    background-color: $colorBlanco;
+    justify-content: space-evenly;
+    height: 400px;
+    border: solid 1px;
+    border-color: $colorcontraste;
+}

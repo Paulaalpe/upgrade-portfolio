@@ -1,0 +1,43 @@
+/*  Media Queries Tablet*/
+
+@media (min-width:576px) and (max-width:1024px) {
+    .navegacion {
+        @include flexCenter(column);
+    }
+    
+    nav 
+ {margin-bottom: 10px;   
+    a {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+    .div-trabajos {
+        @include colores($secondaryColor, $terciaryColor);
+        border: none;
+        align-items: baseline;
+    }
+    .div-bloque1 {
+        margin-top: 50px;
+        padding-right: 200px;
+    }
+}
+
+/*  Media Queries Mobile*/
+@media (max-width:575px) {
+    .div-trabajos {
+        @include colores($secondaryColor, $terciaryColor);
+        border: none;
+    }
+
+    .div-bloque1 {
+        @include flexCenter(column);
+        margin-right: 50px;
+      }
+
+    .div-main-content {
+        margin-right: 80px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+}

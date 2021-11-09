@@ -1,0 +1,11 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin colores ($bcolor, $color) {
+    background-color: $bcolor;
+    color: $color;
+}
